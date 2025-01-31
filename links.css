@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg1 : #000410;
+    --font1 : "Open Sans", serif;
+    --hover1 : color: rgb(207, 202, 202);
+    --search1 : #1E344A;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg1);
+    font-family: var(--font1);
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    background-color: rgba(24, 24, 26, 0.1);
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-name{
+    width: 15%;
+    height: 100%;
+}
+.nav-elements{
+    width: 50%;
+    height: 100%;
+}
+
+.nav-elements ul{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-elements ul li{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 400;
+    transition: color 300ms ease-in-out;
+}
+.nav-elements ul li:last-child{
+    color: rgb(245, 38, 38); 
+}
+
+.nav-elements ul li:hover{
+    cursor: pointer;
+    color: var(--hover1);
+}
+.site-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-name span{
+    display: block;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+}
+.site-name span:nth-child(1){
+    color: rgb(245, 38, 38); 
+}

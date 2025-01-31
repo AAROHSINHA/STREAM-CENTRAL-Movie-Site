@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg1 : #000410;
+    --font1 : "Open Sans", serif;
+    --hover1 : color: rgb(207, 202, 202);
+    --search1 : #1E344A;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--font1);
+    background-color: var(--bg1);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 40vw;
+    min-height: 30vh;
+    height: auto;
+    /* border: 3px solid white; */
+    color: white;
+    line-height: 2.5em;
+    padding-left: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hi{
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 200;
+    opacity: 0.5;
+    margin-left: 2em;
+}
+.aaroh{
+    font-weight: 800;
+    letter-spacing: 3px;
+    font-size: 5em;
+    animation: moveLeftRight 2s linear infinite alternate;
+}
+
+@keyframes moveLeftRight {
+    0% { transform: translateX(-10px); }
+    100% { transform: translateX(10px); }
+}
+
+.container-role{
+    /* border: 1px solid red; */
+    font-weight: 100;
+    letter-spacing: 5px;
+    width: 90%;
+    margin-top: 1em;
+    font-size: 16px;
+    margin-left: 1em;
+    color: gray;
+    margin-bottom: 1em;
+}
+.container-links{
+    width: 60%;
+    height: 4em;
+     background-color: white; 
+    border: 1px solid white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.icons{
+    width: 3em;
+    height: 3em;
+}
+.icons>img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1500px){
+    .container{
+        /* background-color: red; */
+        width: 80%;
+    }
+    .container-role{
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .container{
+        width: 100%;
+        border: 2px solid white;
+    }
+    .container-role{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .aaroh{
+        font-size: 3em;
+    }
+}
