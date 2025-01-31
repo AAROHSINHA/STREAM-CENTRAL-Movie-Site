@@ -22,3 +22,8 @@ Stream Central is a web application that fetches movie and TV show data from the
 - Implement pagination for movie/TV show lists to improve performance and user experience.
 
 Feel free to contribute or raise issues if you have any suggestions or feedback!
+
+## PREVIEW IMAGES - 
+![Preview Image 2](https://github.com/AAROHSINHA/STREAM-CENTRAL-Movie-Site/raw/main/preview2.png)
+![Preview Image 3](https://github.com/AAROHSINHA/STREAM-CENTRAL-Movie-Site/raw/main/preview3.png)
+![Preview Image 4](https://github.com/AAROHSINHA/STREAM-CENTRAL-Movie-Site/raw/main/preview4.png)
