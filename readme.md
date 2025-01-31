@@ -2,6 +2,9 @@
 
 Stream Central is a web application that fetches movie and TV show data from the TMDB API. This project was created to enhance and solidify concepts of asynchronous JavaScript and API calls.
 
+![Preview Image 1](https://github.com/AAROHSINHA/STREAM-CENTRAL-Movie-Site/blob/raw/main/preview1.png)
+
+
 ## Features:
 - **Search for Movies/TV Shows**: Allows users to search for specific movies or TV shows by title.
 - **Browse by Categories**: Users can explore movies and TV shows from various categories such as popular, top-rated, and more.
